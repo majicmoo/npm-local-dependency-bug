@@ -1,0 +1,63 @@
+[main] npm i --verbose                                           11:32:00  ☁  master ☂ ✖ ⚡ ✭
+npm info it worked if it ends with ok
+npm verb cli [ '/Users/**/.nvm/versions/node/v10.7.0/bin/node',
+npm verb cli   '/Users/**/.nvm/versions/node/v10.7.0/bin/npm',
+npm verb cli   'i',
+npm verb cli   '--verbose' ]
+npm info using npm@6.1.0
+npm info using node@v10.7.0
+npm verb npm-session 8c7b67dc6a26ac64
+npm info lifecycle main@1.0.0~preinstall: main@1.0.0
+npm timing stage:loadCurrentTree Completed in 8ms
+npm timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+npm timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+npm http fetch GET 304 https://registry.npmjs.org/ramda 149ms (from cache)
+npm timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 484ms
+npm timing stage:loadIdealTree Completed in 487ms
+npm timing stage:generateActionsToTake Completed in 5ms
+npm verb correctMkdir /Users/**/.npm/_locks correctMkdir not in flight; initializing
+npm timing audit compress Completed in 4ms
+npm info audit Submitting payload of 423bytes
+npm verb lock using /Users/**/.npm/_locks/staging-76c4441c4eba4ec5.lock for /Users/**/Documents/repos/npm-local-install-bug/main/node_modules/.staging
+npm timing audit submit Completed in 307ms
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 307ms
+npm timing audit body Completed in 0ms
+npm timing action:extract Completed in 394ms
+npm timing action:finalize Completed in 5ms
+npm timing action:refresh-package-json Completed in 8ms
+npm info lifecycle common@1.0.0~preinstall: common@1.0.0
+npm info lifecycle ramda@0.26.1~preinstall: ramda@0.26.1
+npm timing action:preinstall Completed in 1ms
+npm info linkStuff common@1.0.0
+npm info linkStuff ramda@0.26.1
+npm timing action:build Completed in 1ms
+npm info lifecycle common@1.0.0~install: common@1.0.0
+npm info lifecycle ramda@0.26.1~install: ramda@0.26.1
+npm timing action:install Completed in 1ms
+npm info lifecycle common@1.0.0~postinstall: common@1.0.0
+npm info lifecycle ramda@0.26.1~postinstall: ramda@0.26.1
+npm timing action:postinstall Completed in 0ms
+npm verb unlock done using /Users/**/.npm/_locks/staging-76c4441c4eba4ec5.lock for /Users/**/Documents/repos/npm-local-install-bug/main/node_modules/.staging
+npm timing stage:executeActions Completed in 465ms
+npm timing stage:rollbackFailedOptional Completed in 0ms
+npm info linkStuff main@1.0.0
+npm info lifecycle main@1.0.0~install: main@1.0.0
+npm info lifecycle main@1.0.0~postinstall: main@1.0.0
+npm info lifecycle main@1.0.0~prepublish: main@1.0.0
+npm info lifecycle main@1.0.0~prepare: main@1.0.0
+npm timing stage:runTopLevelLifecycles Completed in 996ms
+npm verb saving []
+npm verb shrinkwrap skipping write for package.json because there were no changes.
+npm info lifecycle undefined~preshrinkwrap: undefined
+npm info lifecycle undefined~shrinkwrap: undefined
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm info lifecycle undefined~postshrinkwrap: undefined
+npm WARN main@1.0.0 No description
+npm WARN main@1.0.0 No repository field.
+
+added 2 packages from 4 contributors and audited 4 packages in 1.015s
+found 0 vulnerabilities
+
+npm verb exit [ 0, true ]
+npm timing npm Completed in 1462ms
+npm info ok 

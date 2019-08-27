@@ -1,0 +1,42 @@
+ npm i --verbose                                                11:04:19  ☁  master ☂ ✭
+npm info it worked if it ends with ok
+npm verb cli [ '/Users/**/.nvm/versions/node/v10.16.2/bin/node',
+npm verb cli   '/Users/**/.nvm/versions/node/v10.16.2/bin/npm',
+npm verb cli   'i',
+npm verb cli   '--verbose' ]
+npm info using npm@6.9.0
+npm info using node@v10.16.2
+npm verb npm-session a3dd734c2aba569c
+npm info lifecycle main@1.0.0~preinstall: main@1.0.0
+npm timing stage:loadCurrentTree Completed in 27ms
+npm timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+npm timing stage:loadIdealTree:loadShrinkwrap Completed in 8ms
+npm http fetch GET 304 https://registry.npmjs.org/lodash 141ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/moment 143ms (from cache)
+npm timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 165ms
+npm timing stage:loadIdealTree Completed in 175ms
+npm timing stage:generateActionsToTake Completed in 3ms
+npm verb correctMkdir /Users/**/.npm/_locks correctMkdir not in flight; initializing
+npm verb lock using /Users/**/.npm/_locks/staging-76c4441c4eba4ec5.lock for /Users/**/Documents/repos/npm-local-install-bug/main/node_modules/.staging
+npm verb unlock done using /Users/**/.npm/_locks/staging-76c4441c4eba4ec5.lock for /Users/**/Documents/repos/npm-local-install-bug/main/node_modules/.staging
+npm timing stage:executeActions Completed in 8ms
+npm timing stage:rollbackFailedOptional Completed in 1ms
+npm info linkStuff main@1.0.0
+npm info lifecycle main@1.0.0~install: main@1.0.0
+npm info lifecycle main@1.0.0~postinstall: main@1.0.0
+npm info lifecycle main@1.0.0~prepublish: main@1.0.0
+npm info lifecycle main@1.0.0~prepare: main@1.0.0
+npm timing stage:runTopLevelLifecycles Completed in 244ms
+npm verb saving []
+npm verb shrinkwrap skipping write for package.json because there were no changes.
+npm info lifecycle undefined~preshrinkwrap: undefined
+npm info lifecycle undefined~shrinkwrap: undefined
+npm verb shrinkwrap skipping write for package-lock.json because there were no changes.
+npm info lifecycle undefined~postshrinkwrap: undefined
+npm WARN main@1.0.0 No description
+npm WARN main@1.0.0 No repository field.
+
+npm http fetch POST 400 https://registry.npmjs.org/-/npm/v1/security/audits/quick 468ms
+up to date in 0.707s
+npm verb exit [ 0, true ]
+npm timing npm 
